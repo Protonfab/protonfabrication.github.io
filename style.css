@@ -117,7 +117,7 @@ form button {
 }
 /* Optional: laser hero background */
 .laser-hero {
-  background-image: url("images/laser-bg.jpg");
+  background-image: url("assets/laser.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
