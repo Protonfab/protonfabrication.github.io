@@ -36,7 +36,7 @@ nav a:hover {
 }
 .hero p {
   font-size: 1.2em;
-  color: #ccc;
+  color: #000000;
 }
 section {
   padding: 60px 20px;
@@ -120,7 +120,7 @@ form button {
   background-image: url("assets/laser.jpg");
   background-size: cover;
   background-position: center;
-  color: #fff;
+  color: #000000;
 }
 
 /* Gallery layout */
