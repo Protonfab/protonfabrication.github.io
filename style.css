@@ -115,3 +115,28 @@ form button {
 .whatsapp img {
   width: 60px;
 }
+/* Optional: laser hero background */
+.laser-hero {
+  background-image: url("images/laser-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Gallery layout */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Keep existing contact and footer styling, or reuse */
+
