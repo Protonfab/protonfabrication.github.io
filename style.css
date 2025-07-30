@@ -23,43 +23,6 @@ nav a {
 nav a:hover {
   color: #00bcd4;
 }
-.card {
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  color: white;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.card h3, .card p {
-  background-color: rgba(0, 0, 0, 0.6); /* for readability */
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-/* Unique backgrounds for each service */
-.service-laser {
-  background-image: url('images/laser.jpg');
-}
-
-.service-bending {
-  background-image: url('images/bending.jpg');
-}
-
-.service-welding {
-  background-image: url('images/welding.jpg');
-}
-
-.service-custom {
-  background-image: url('images/custom.jpg');
-}
-
 .hero {
   background-color: #121212;
   text-align: center;
@@ -96,6 +59,36 @@ form input, form textarea {
   border: none;
   border-radius: 5px;
 }
+.card {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.card h3, .card p {
+  background-color: rgba(0, 0, 0, 0.5); /* readability */
+  padding: 8px;
+  border-radius: 5px;
+}
+.service-laser {
+  background-image: url('assets/laser.jpg');
+}
+.service-bending {
+  background-image: url('assets/bending.jpg');
+}
+.service-welding {
+  background-image: url('assets/welding.jpg');
+}
+.service-custom {
+  background-image: url('assets/custom.jpg');
+}
 form button {
   padding: 10px 20px;
   background: #00bcd4;
@@ -119,35 +112,4 @@ form button {
 }
 .whatsapp img {
   width: 60px;
-}
-.card {
-  background-size: cover;
-  background-position: center;
-  color: white;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 20px;
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.card h3, .card p {
-  background-color: rgba(0, 0, 0, 0.5); /* readability */
-  padding: 8px;
-  border-radius: 5px;
-}
-.service-laser {
-  background-image: url('assets/laser.jpg');
-}
-.service-bending {
-  background-image: url('assets/bending.jpg');
-}
-.service-welding {
-  background-image: url('assets/welding.jpg');
-}
-.service-custom {
-  background-image: url('assets/custom.jpg');
 }
