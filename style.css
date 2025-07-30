@@ -120,3 +120,34 @@ form button {
 .whatsapp img {
   width: 60px;
 }
+.card {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card h3, .card p {
+  background-color: rgba(0, 0, 0, 0.5); /* readability */
+  padding: 8px;
+  border-radius: 5px;
+}
+.service-laser {
+  background-image: url('assets/laser.jpg');
+}
+.service-bending {
+  background-image: url('assets/bending.jpg');
+}
+.service-welding {
+  background-image: url('assets/welding.jpg');
+}
+.service-custom {
+  background-image: url('assets/custom.jpg');
+}
