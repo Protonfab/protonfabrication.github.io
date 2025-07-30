@@ -24,7 +24,7 @@ nav a:hover {
   color: #00bcd4;
 }
 .hero {
-  background: url('images/hero-bg.jpg') center center / cover no-repeat;
+  background: url('assets/blur_bg.jpg') center center / cover no-repeat;
   text-align: center;
   padding: 80px 20px;
   position: relative;
